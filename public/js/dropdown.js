@@ -19,9 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
         dropdown.addEventListener("click", function (event) {
-            if (window.innerWidth <= 768) { // Ajustez cette valeur selon vos besoins
+            if (window.innerWidth <= 768) {
                 event.preventDefault();
                 this.classList.toggle("active");
+                this.querySelector(".dropdown-content .sub-menu").style.display = "block";
             }
         });
 
