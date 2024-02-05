@@ -96,7 +96,6 @@ header {
     white-space: nowrap;
     /* add */
     width: 200px; /* Ajustez la largeur selon vos besoins */
-    margin-left: 10px; /* Ajoutez une petite marge à gauche */
 }
 .dropdown-content .sub-menu {
     display: none;
