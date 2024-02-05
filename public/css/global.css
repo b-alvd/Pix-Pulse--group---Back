@@ -1,0 +1,49 @@
+:root {
+    --white: #fff;
+
+    --background: #101010;
+
+    --background--header-topBar: #2c2c2c;
+    --background--header-navBar: #202020;
+
+    --color-buttons: orange;
+    --color-buttons-hover: rgb(255, 187, 60);
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #101010;
+}
+::-webkit-scrollbar-thumb {
+    background: #202020;
+    transition: all ease-in-out .3s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #2c2c2c;
+}
+
+
+
+/* temp */
+main {
+    padding-top: 6em;
+    color: white;
+}
