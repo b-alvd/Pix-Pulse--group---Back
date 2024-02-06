@@ -176,6 +176,11 @@ header {
     transform: translateY(-7px) rotate(-45deg);
 }
 
+.home {
+    background-color: #fff;
+    height: 100vh;
+}
+
 
 @media (max-width: 835px) {
     .header_nav {
