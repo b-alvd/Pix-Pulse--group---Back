@@ -2,8 +2,85 @@ footer {
     background-color: var(--background--header-navBar);
     margin-top: 50px;
     padding: 50px;
+    color: white;
+}
+footer #footer_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background--header-topBar);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 footer img {
     width: 150px;
+}
+
+footer section h3 {
+    text-align: center;
+    text-decoration: underline 2px var(--color-buttons);
+}
+
+footer .website_links ul,
+.legal ul,
+.social ul {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+footer .website_links ul li,
+footer .website_links ul li a {
+    padding: 5px;
+    transition: all ease-in-out .2s;
+}
+footer .website_links ul li a:hover {
+    color: var(--color-buttons);
+}
+
+footer .legal ul li,
+footer .legal ul li a {
+    padding: 5px;
+    transition: all ease-in-out .2s;
+}
+footer .legal ul li a:hover {
+    color: var(--color-buttons);
+}
+
+footer .social ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+}
+footer .social ul li {
+    padding: 20px 5px;
+    margin: 10px 0;
+}
+footer .social ul li a {
+    padding: 18px 20px;
+    background-color: var(--background--header-navBar);
+    border-radius: 50px;
+    transition: all ease-in-out .3s;
+}
+footer .social ul li a:hover {
+    background-color: var(--color-buttons);
+    color: var(--background--header-navBar);
+}
+
+footer p {
+    text-align: center;
+    margin-top: 50px;
+}
+footer p a {
+    text-align: center;
+    margin-top: 50px;
+    color: var(--color-buttons);
+    transition: all ease-in-out .2s;
+}
+footer p a:hover {
+    text-align: center;
+    margin-top: 50px;
+    color: var(--color-buttons-hover);
 }

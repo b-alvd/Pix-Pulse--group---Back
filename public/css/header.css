@@ -130,7 +130,7 @@ header {
 }
 .dropdown-content a:hover {
     color: white;
-    background-color: var(--color-buttons-hover);
+    background-color: var(--color-buttons);
 }
 .dropdown:hover .dropdown-content {
     display: block;
