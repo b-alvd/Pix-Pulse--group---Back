@@ -29,9 +29,11 @@
 }
 #subsidiaries .subsidiaries_container article h2 {
     margin-bottom: 35px;
+    cursor: default;
 }
 #subsidiaries .subsidiaries_container article p {
     margin-bottom: 35px;
+    cursor: default;
 }
 #subsidiaries .subsidiaries_container article a {
     padding: 10px 15px;
