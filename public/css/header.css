@@ -221,7 +221,7 @@ header {
 }
 
 
-@media (max-width: 835px) {
+@media screen and (max-width: 835px) {
     .header_nav {
         position: fixed;
         top: 90px;
