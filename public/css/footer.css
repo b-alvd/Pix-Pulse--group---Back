@@ -88,11 +88,5 @@ footer p a:hover {
 @media (max-width: 835px) {
     footer #footer_top {
         flex-direction: column;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: var(--background--header-topBar);
-        padding: 20px;
-        border-radius: 5px;
     }
 }
