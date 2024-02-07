@@ -249,7 +249,7 @@ header {
         display: block;
     }
 
-    .header_nav--open {
+    .sticky .header_nav--open {
         top: 3.78em;
     }
 
