@@ -13,7 +13,6 @@ button {
 }
 
 header {
-    /* position: fixed; */
     width: 100%;
 }
 
@@ -102,13 +101,12 @@ header {
     background-color: var(--background--header-navBar);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
-    /* add */
-    width: 200px; /* Ajustez la largeur selon vos besoins */
+    width: 200px; 
 }
 .dropdown-content .sub-menu {
     display: none;
     padding: 10px;
-    background-color: var(--background--header-navBar); /* Couleur de fond pour le sous-menu */
+    background-color: var(--background--header-navBar);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .dropdown-content .sub-menu a {
@@ -185,12 +183,15 @@ header {
 }
 
 #home {
-    background-color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/bg_header.png");
+    background-size: cover;
+    background-position: center;
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 #home h1 {
     font-size: 50px;
@@ -205,7 +206,6 @@ header {
     font-size: 15px;
     font-weight: bold;
     padding: 15px;
-    color: white;
     background-color: var(--color-buttons);
     border-radius: 30px;
     transition: all ease-in-out .2s;
@@ -241,10 +241,15 @@ header {
     .header_hamburger {
         display: block;
     }
-}
 
-@media (max-width: 360px) {
-    .header_topBar__content {
-        font-size: 10px;
+    #home h1 {
+        font-size: 29px;
+        padding: 25px;
+        margin-top: -50px;
+    }
+    #home p {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 30px;
     }
 }
