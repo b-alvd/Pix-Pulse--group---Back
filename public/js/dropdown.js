@@ -39,3 +39,28 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// scrolling to anchors
+function smoothScroll(target) {
+    const element = document.querySelector(target);
+    const offset = 80;
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+    });
+}
+document.addEventListener('DOMContentLoaded', function() {
+    const dropdownLinks = document.querySelectorAll('.dropdown_content a');
+    dropdownLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const target = this.getAttribute('href');
+            smoothScroll(target);
+        });
+    });
+});
