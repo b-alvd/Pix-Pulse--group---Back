@@ -3,10 +3,15 @@
     padding: 50px;
 }
 #subsidiaries .subsidiaries_container article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #2c2c2c;
     text-align: center;
     padding: 50px;
     margin: 20px;
+    width: 500px;
     border-radius: 5px;
     box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 15px;
     transition: all ease-in-out .3s;
