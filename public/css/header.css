@@ -5,12 +5,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-button {
-    background: none;
-    border: none;
-    font: inherit;
-    color: inherit;
-}
 
 header {
     width: 100%;
@@ -87,14 +81,26 @@ header {
 .header_nav__link:hover {
     color: var(--color-buttons-hover);
 }
+.header_nav__link_drop {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    transition: all 0.2s;
+}
+.header_nav__link_drop:hover {
+    color: var(--color-buttons-hover);
+}
+.header_nav__link_drop span {
+    margin-top: 2px;
+}
 .dropdown {
     position: relative;
 }
-.dropdown-icon {
-    margin-left: 5px;
+.dropdown_icon {
+    margin-left: 10px;
     font-size: 0.5em;
 }
-.dropdown-content {
+.dropdown_content {
     display: none;
     margin-top: 1.3em;
     position: absolute;
@@ -103,30 +109,30 @@ header {
     white-space: nowrap;
     width: 200px; 
 }
-.dropdown-content .sub-menu {
+.dropdown_content .sub-menu {
     display: none;
     padding: 10px;
     background-color: var(--background--header-navBar);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.dropdown-content .sub-menu a {
+.dropdown_content .sub-menu a {
     color: white;
     padding: 10px;
     display: block;
     text-decoration: none;
     transition: all ease-in-out .3s;
 }
-.dropdown-content .sub-menu a:hover {
+.dropdown_content .sub-menu a:hover {
     color: white;
     background-color: var(--color-buttons-hover);
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown_content {
     display: block;
 }
-.dropdown:hover .dropdown-content .sub-menu {
+.dropdown:hover .dropdown_content .sub-menu {
     display: block;
 }
-.dropdown-content a {
+.dropdown_content a {
     color: white;
     padding: 15px 40px;
     display: block;
@@ -134,11 +140,11 @@ header {
     white-space: nowrap;
     transition: all ease-in-out .3s;
 }
-.dropdown-content a:hover {
+.dropdown_content a:hover {
     color: white;
     background-color: var(--color-buttons);
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown_content {
     display: block;
 }
 .header_nav__btn {
