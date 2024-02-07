@@ -3,18 +3,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     dropdowns.forEach(function (dropdown) {
         dropdown.addEventListener("mouseenter", function () {
-            if (window.innerWidth > 768) { // Ajustez cette valeur selon vos besoins
+            if (window.innerWidth > 768) {
                 clearTimeout(this.timeoutId);
                 this.querySelector(".dropdown_content").style.display = "block";
             }
         });
 
         dropdown.addEventListener("mouseleave", function () {
-            if (window.innerWidth > 768 && !this.classList.contains("active")) { // Ajustez cette valeur selon vos besoins
+            if (window.innerWidth > 768 && !this.classList.contains("active")) {
                 var dropdownContent = this.querySelector(".dropdown_content");
                 this.timeoutId = setTimeout(function () {
                     dropdownContent.style.display = "none";
-                }, 100); // Ajoutez une temporisation de 300 millisecondes (ajustable selon vos besoins)
+                }, 100);
             }
         });
 
