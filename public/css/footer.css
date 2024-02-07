@@ -85,7 +85,7 @@ footer p a:hover {
     color: var(--color-buttons-hover);
 }
 
-@media screen and (min-width: 0px) and (max-width: 835px) {
+@media screen and (max-width: 835px) {
     footer #footer_top {
         flex-direction: column;
     }
