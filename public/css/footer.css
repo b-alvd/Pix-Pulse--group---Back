@@ -89,4 +89,8 @@ footer p a:hover {
     footer #footer_top {
         flex-direction: column;
     }
+
+    footer section h3 {
+        text-decoration: underline 2px var(--color-buttons);
+    }
 }
