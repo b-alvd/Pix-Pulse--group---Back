@@ -12,7 +12,7 @@
     transition: all ease-in-out .3s;
 }
 #services .services_container article:hover {
-    transform: scale(1.05);
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 50px;
 }
 #services .services_container article img {
     width: 80px;
@@ -32,14 +32,19 @@
     padding: 10px 15px;
     background-color: var(--color-buttons);
     border-radius: 20px;
+    transition: all ease-in-out .2s;
 }
 #services .services_container article a:hover {
     background-color: var(--color-buttons-hover);
-    transition: all ease-in-out .2s;
 }
 
 @media screen and (max-width: 900px) {
     #services .services_container {
         flex-direction: column;
+        padding: 50px 0;
+    }
+
+    #services .services_container article {
+        width: 64%;
     }
 }
