@@ -209,7 +209,7 @@ header {
         display: block;
     }
 }
-  
+
 @media (max-width: 360px) {
     .header_topBar__content {
         font-size: 10px;

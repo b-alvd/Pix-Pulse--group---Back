@@ -66,7 +66,7 @@ footer .social ul li a {
 }
 footer .social ul li a:hover {
     background-color: var(--color-buttons);
-    color: var(--background--header-navBar);
+    color: var(--background--header-topBar);
 }
 
 footer p {
@@ -83,4 +83,16 @@ footer p a:hover {
     text-align: center;
     margin-top: 50px;
     color: var(--color-buttons-hover);
+}
+
+@media (max-width: 835px) {
+    footer #footer_top {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--background--header-topBar);
+        padding: 20px;
+        border-radius: 5px;
+    }
 }
