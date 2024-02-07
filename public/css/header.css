@@ -13,7 +13,7 @@ button {
 }
 
 header {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -64,6 +64,14 @@ header {
     color: var(--white);
     font-weight: 500;
     letter-spacing: -0.5px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .header_navBar {
+    background-color: #ff0000;
 }
 
 .header_nav {
@@ -176,9 +184,34 @@ header {
     transform: translateY(-7px) rotate(-45deg);
 }
 
-.home {
+#home {
     background-color: #fff;
-    height: 100vh;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home h1 {
+    font-size: 50px;
+    padding: 25px;
+}
+#home p {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px;
+}
+#home a {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    background-color: var(--color-buttons);
+    border-radius: 30px;
+    transition: all ease-in-out .2s;
+}
+#home a:hover {
+    background-color: var(--color-buttons-hover);
 }
 
 
