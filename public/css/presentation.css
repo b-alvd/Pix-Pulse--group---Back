@@ -1,0 +1,45 @@
+#presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+#presentation .presentation_card {
+    display: flex;
+    align-items: center;
+    background-color: var(--background--header-topBar);
+    border-radius: 10px;
+    width: 40vw;
+    padding: 40px;
+    margin: 20px;
+}
+#presentation .presentation_card img {
+    width: 300px;
+    margin-right: 4em;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 25px;
+}
+#presentation .presentation_card .infos {
+    text-align: center;
+    cursor: default;
+}
+#presentation .presentation_card .infos h2 {
+    margin-bottom: 20px;
+    text-decoration: underline 2px var(--color-buttons);
+}
+
+@media screen and (max-width: 1500px) {
+    #presentation {
+        flex-direction: column;
+    }
+    #presentation .presentation_card {
+        flex-direction: column;
+        width: 65vw;
+    }
+    #presentation .presentation_card img {
+        width: 250px;
+        margin-right: 0em;
+        margin-bottom: 20px;
+    }
+}
