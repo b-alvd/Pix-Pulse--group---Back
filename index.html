@@ -118,22 +118,24 @@
                 <img src="./public/assets/contact.webp" alt="Enveloppe sur un avion en papier">
                 <form action="">
                     <h2>Contactez nous</h2>
-                    <label for="fname">Nom & Prénom</label>
+                    <label for="fname">Nom & Prénom <span class="required">*</span></label>
                     <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom" required>
                 
-                    <label for="sujet">Sujet</label>
+                    <label for="sujet">Sujet <span class="required">*</span></label>
                     <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" required>
                 
-                    <label for="emailAddress">Email</label>
+                    <label for="emailAddress">Email <span class="required">*</span></label>
                     <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
 
-                    <label for="phoneNumber">Numéro de téléphone</label>
+                    <label for="phoneNumber">Numéro de téléphone <span class="required">*</span></label>
                     <input id="phoneNumber" type="tel" name="phone" pattern="[0-9]-[0-9]-[0-9]-[0-9]-[0-9]" placeholder="Votre numéro de téléphone">
                 
-                    <label for="subject">Message</label>
+                    <label for="subject">Message <span class="required">*</span></label>
                     <textarea id="subject" name="subject" placeholder="Votre message" required></textarea>
                 
                     <input type="submit" value="Envoyer">
+
+                    <p class="info">Si une demande est succédée de ce symbole ( <strong><span class="required">*</span></strong> ) il est requis de l'inscrire pour envoyer le formulaire</p>
                 </form>
             </section>
         </main>

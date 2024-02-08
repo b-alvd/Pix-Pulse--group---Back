@@ -35,10 +35,19 @@
     margin-left: 0px;
     resize: vertical;
 }
-#contact form label{
+#contact form label {
     margin-right: 0px;
     margin-left: 0px;
-    width: 100%;}
+    width: 100%;
+}
+#contact form .required {
+    color: red;
+}
+#contact form p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+}
 #contact form input[type=submit] {
     background-color: var(--color-buttons);
     color: white;
