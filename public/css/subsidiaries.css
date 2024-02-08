@@ -1,5 +1,6 @@
 #subsidiaries .subsidiaries_container {
     display: flex;
+    align-items: center;
     padding: 50px;
 }
 #subsidiaries .subsidiaries_container article {
