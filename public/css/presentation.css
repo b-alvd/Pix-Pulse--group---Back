@@ -19,6 +19,10 @@
     margin-right: 4em;
     border-radius: 10px;
     box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 25px;
+    transition: all ease-in-out .2s;
+}
+#presentation .presentation_card img:hover {
+    box-shadow: var(--color-buttons) 0px 0px 25px;
 }
 #presentation .presentation_card .infos {
     text-align: center;

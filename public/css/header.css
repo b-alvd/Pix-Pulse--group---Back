@@ -57,6 +57,10 @@ header {
     color: var(--white);
     font-weight: 500;
     letter-spacing: -0.5px;
+    transition: all ease-in-out .2s;
+}
+.header_navBar_logo__text:hover {
+    color: var(--color-buttons);
 }
 .sticky {
     position: fixed;
