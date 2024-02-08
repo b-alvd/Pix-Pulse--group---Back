@@ -21,6 +21,7 @@
     text-align: center;
     padding-bottom: 40px;
     text-decoration: underline 2px var(--color-buttons);
+    -webkit-text-decoration-underline: underline 2px var(--color-buttons);
 }
 #contact form input[type=text], textarea, input[type=email], input[type=tel] {
     width: 100%;

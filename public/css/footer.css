@@ -19,6 +19,7 @@ footer img {
 footer section h3 {
     text-align: center;
     text-decoration: underline 2px var(--color-buttons);
+    -webkit-text-decoration-underline: underline 2px var(--color-buttons);
 }
 
 footer .website_links ul,
