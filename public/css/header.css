@@ -63,9 +63,6 @@ header {
     top: 0;
     width: 100%;
 }
-.sticky + .header_navBar {
-    background-color: #ff0000;
-}
 
 .header_nav {
     transition: all 0.3s ease-in-out;

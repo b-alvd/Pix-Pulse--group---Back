@@ -25,6 +25,7 @@
         <link rel="stylesheet" href="./public/css/global.css">
         <link rel="stylesheet" href="./public/css/header.css">
         <link rel="stylesheet" href="./public/css/subsidiaries.css">
+        <link rel="stylesheet" href="./public/css/contact.css">
         <link rel="stylesheet" href="./public/css/footer.css">
     </head>
 
@@ -63,8 +64,8 @@
                                     <a href="#subsidiaries_music">P&P Musique</a>
                                 </div>
                             </li>
-                            <li class="header_nav__item"><a class="header_nav__link" href="#">Equipe</a></li>
-                            <li class="header_nav__item"><a class="header_nav__link" href="#">Contact</a></li>
+                            <li class="header_nav__item"><a class="header_nav__link" href="#">Présentation/Histoire</a></li>
+                            <li class="header_nav__item"><a class="header_nav__link" href="#contact">Contact</a></li>
                             <li class="header_nav__item"><a class="header_nav__btn" href="#">S'identifier</a></li>
                         </ul>
                     </nav>
@@ -112,6 +113,28 @@
                         <a href="">En savoir plus...</a>
                     </article>
                 </div>
+            </section>
+            <section id="contact">
+                <img src="./public/assets/contact.webp" alt="Enveloppe sur un avion en papier">
+                <form action="">
+                    <h2>Contactez nous</h2>
+                    <label for="fname">Nom & Prénom</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom" required>
+                
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message" required>
+                
+                    <label for="emailAddress">Email</label>
+                    <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
+
+                    <label for="phoneNumber">Numéro de téléphone</label>
+                    <input id="phoneNumber" type="tel" name="phone" pattern="[0-9]-[0-9]-[0-9]-[0-9]-[0-9]" placeholder="Votre numéro de téléphone">
+                
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Votre message" required></textarea>
+                
+                    <input type="submit" value="Envoyer">
+                </form>
             </section>
         </main>
 
