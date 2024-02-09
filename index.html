@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="./public/css/presentation.css">
         <link rel="stylesheet" href="./public/css/contact.css">
         <link rel="stylesheet" href="./public/css/footer.css">
+        <link rel="stylesheet" href="./public/css/popup_identification.css">
     </head>
 
     <body>
@@ -67,7 +68,7 @@
                             </li>
                             <li class="header_nav__item"><a class="header_nav__link" href="#presentation">Présentation/Histoire</a></li>
                             <li class="header_nav__item"><a class="header_nav__link" href="#contact">Contact</a></li>
-                            <li class="header_nav__item"><a class="header_nav__btn" href="#">S'identifier</a></li>
+                            <li class="header_nav__item"><a class="header_nav__btn" href="#" id="loginLink">S'identifier</a></li>
                         </ul>
                     </nav>
             
@@ -222,9 +223,35 @@
             </section>
             <p>Copyright &copy; 2024 All Rights Reserved by <a href="#">Pix&Pulse Group</a></p>
         </footer>
+
+        <div id="popup_identification" class="popup_identification">
+            <div class="popup_identification_content">
+                <span class="close">&times;</span>
+                <div id="loginForm">
+                    <h2>Connexion</h2>
+                    <form class="form_identification">
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                        <input type="password" placeholder="Mot de passe" required>
+                        <button type="submit">Se connecter</button>
+                    </form>
+                    <p>Pas encore de compte ? <a href="#" id="signupLink">S'inscrire</a></p>
+                </div>
+                <div id="signupForm">
+                    <h2>Inscription</h2>
+                    <form class="form_identification">
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Numéro de téléphone" required>
+                        <input type="password" placeholder="Mot de passe" required>
+                        <button type="submit">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 
     <script src="./public/js/header.js"></script>
     <script src="./public/js/navbar.js"></script>
     <script src="./public/js/dropdown.js"></script>
+    <script src="./public/js/popup_identification.js"></script>
 </html>
