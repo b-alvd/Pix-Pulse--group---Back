@@ -45,7 +45,7 @@
         
             <div id="navbar" class="header_navBar">
                 <div class="header_navBar__content">
-                    <a href="../../index.html" class="header_navBar_logo">
+                    <a href="../../index.php" class="header_navBar_logo">
                         <img class="header_navBar_logo__img" src="../assets/logo.webp" alt="Logo de l'entreprise">
                         <span class="header_navBar_logo__text">Pix&Pulse</span>
                     </a>
@@ -66,7 +66,7 @@
                             </li>
                             <li class="header_nav__item"><a class="header_nav__link" href="#presentation">Présentation/Histoire</a></li>
                             <li class="header_nav__item"><a class="header_nav__link" href="#contact">Contact</a></li>
-                            <li class="header_nav__item"><a class="header_nav__btn" href="../../index.html" id="loginLink">S'identifier</a></li>
+                            <li class="header_nav__item"><a class="header_nav__btn" href="../../index.php" id="loginLink">S'identifier</a></li>
                         </ul>
                     </nav>
             
@@ -92,7 +92,7 @@
 
         <footer>
             <section id="footer_top">
-                <a href="../../index.html"><img src="../assets/logo.webp" alt="Logo de l'entreprise"></a>
+                <a href="../../index.php"><img src="../assets/logo.webp" alt="Logo de l'entreprise"></a>
                 <section class="website_links">
                     <h3>Liens du site :</h3>
                     <ul>
@@ -105,10 +105,10 @@
                 <section class="legal">
                     <h3>Légal :</h3>
                     <ul>
-                        <li><a href="../pages/cgu.html">CGU</a></li>
-                        <li><a href="../pages/rights.html">Droits</a></li>
-                        <li><a href="../pages/credits.html">Crédits</a></li>
-                        <li><a href="../pages/informations.html">Informations</a></li>
+                        <li><a href="../pages/cgu.php">CGU</a></li>
+                        <li><a href="../pages/rights.php">Droits</a></li>
+                        <li><a href="../pages/credits.php">Crédits</a></li>
+                        <li><a href="../pages/informations.php">Informations</a></li>
                     </ul>
                 </section>
                 <section class="social">
@@ -125,7 +125,7 @@
                     </ul>
                 </section>
             </section>
-            <p>Copyright &copy; 2024 All Rights Reserved by <a href="../../index.html">Pix&Pulse Group</a></p>
+            <p>Copyright &copy; 2024 All Rights Reserved by <a href="../../index.php">Pix&Pulse Group</a></p>
         </footer>
 
         <div id="popup_identification" class="popup_identification">
@@ -138,7 +138,7 @@
                         <input type="password" placeholder="Mot de passe" required>
                         <button type="submit">Se connecter</button>
                     </form>
-                    <p>Pas encore de compte ? <a href="../../index.html" id="signupLink">S'inscrire</a></p>
+                    <p>Pas encore de compte ? <a href="../../index.php" id="signupLink">S'inscrire</a></p>
                 </div>
                 <div id="signupForm">
                     <h2>Inscription</h2>
