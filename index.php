@@ -228,21 +228,21 @@
                 <span class="close">&times;</span>
                 <div id="loginForm">
                     <h2>Connexion</h2>
-                    <form class="form_identification">
-                        <input type="text" placeholder="Nom d'utilisateur" required>
-                        <input type="password" placeholder="Mot de passe" required>
-                        <button type="submit">Se connecter</button>
+                    <form class="form_identification" method="post" action="login.php">
+                        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+                        <input type="password" name="password" placeholder="Mot de passe" required>
+                        <button type="submit" name="login_submit">Se connecter</button>
                     </form>
                     <p>Pas encore de compte ? <a href="#" id="signupLink">S'inscrire</a></p>
                 </div>
-                <div id="signupForm">
+                <div id="signupForm" style="display:none;">
                     <h2>Inscription</h2>
-                    <form class="form_identification">
-                        <input type="text" placeholder="Nom d'utilisateur" required>
-                        <input type="email" placeholder="Email" required>
-                        <input type="tel" placeholder="Numéro de téléphone" required>
-                        <input type="password" placeholder="Mot de passe" required>
-                        <button type="submit">S'inscrire</button>
+                    <form class="form_identification" method="post" action="signup.php">
+                        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="tel" name="phone" placeholder="Numéro de téléphone" required>
+                        <input type="password" name="password" placeholder="Mot de passe" required>
+                        <button type="submit" name="signup_submit">S'inscrire</button>
                     </form>
                 </div>
             </div>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Pix&Pulse société basée à Lyon qui a pour domaine le développement web, web mobile et le graphisme. Pix&Pulse comprend aussi plusieurs filiales.">
+        <meta name="keywords" content="developpement, dev, development, web, web mobile, mobile, lyon, Lyon, Pix&Pulse, Pix, pix, &, Pulse, pulse">
+        <meta name="author" content="Basile ALEVEQUE-DESSOLIN">
+        <meta name="copyright" content="Pix&Pulse Group">
+        <meta name="robots" content="index,nofollow"/>
+        
+        <title>Pix&Pulse Group | Droits</title>
+        <link rel="icon" type="image/webp" href="../assets/logo.webp" />
+
+        <!-- Fonts -->
+        <!-- Roboto Regular 400 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- Styles -->
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/header.css">
+
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/popup_identification.css">
+    </head>
+
+    <body>
+        <header id="home_top">
+            <div class="header_topBar">
+                <div class="header_topBar__content">
+                    <section>
+                        <i class="fa-solid fa-phone header_topBar_icon"></i><span>07-81-84-01-05</span>
+                    </section>
+                    <section>
+                        <i class="fa-solid fa-envelope header_topBar_icon"></i>
+                        <span>contact@pix&pulse.com</span>
+                    </section>
+                </div>
+            </div>
+        
+            <div id="navbar" class="header_navBar">
+                <div class="header_navBar__content">
+                    <a href="../../index.php" class="header_navBar_logo">
+                        <img class="header_navBar_logo__img" src="../assets/logo.webp" alt="Logo de l'entreprise">
+                        <span class="header_navBar_logo__text">Pix&Pulse</span>
+                    </a>
+                
+                    <nav class="header_nav">
+                        <ul class="header_nav__list">
+                            <li class="header_nav__item"><a class="header_nav__link" href="#home_top">Accueil</a></li>
+                            <li class="header_nav__item dropdown">
+                                <a class="header_nav__link_drop" href="#subsidiaries" id="filialesDropdown">Filiales
+                                    <span class="dropdown_icon">&#9660;</span>
+                                </a>
+                                <div class="dropdown_content">
+                                    <a href="#subsidiaries_dev">P&P Web / Web Mobile</a>
+                                    <a href="#subsidiaries_graphism">P&P Graphisme</a>
+                                    <a href="#subsidiaries_heberg">P&P Hébergement</a>
+                                    <a href="#subsidiaries_music">P&P Musique</a>
+                                </div>
+                            </li>
+                            <li class="header_nav__item"><a class="header_nav__link" href="#presentation">Présentation/Histoire</a></li>
+                            <li class="header_nav__item"><a class="header_nav__link" href="#contact">Contact</a></li>
+                            <li class="header_nav__item"><a class="header_nav__btn" href="../../index.php" id="loginLink">S'identifier</a></li>
+                        </ul>
+                    </nav>
+            
+                    <div class="header_hamburger">
+                        <div class="header_hamburger_bar"></div>
+                        <div class="header_hamburger_bar"></div>
+                        <div class="header_hamburger_bar"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="home">
+            <h1>Bienvenue chez Pix&Pulse</h1>
+            <p>Transformer l'ordinaire en extraordinaire</p>
+            <a href="">Faire un devis</a>
+        </section>
+        <div class="point"></div>
+
+        <main>
+            
+        </main>
+
+        <footer>
+            <section id="footer_top">
+                <a href="../../index.php"><img src="../assets/logo.webp" alt="Logo de l'entreprise"></a>
+                <section class="website_links">
+                    <h3>Liens du site :</h3>
+                    <ul>
+                        <li><a href="#home_top">Accueil</a></li>
+                        <li><a href="#subsidiaries">Filiales</a></li>
+                        <li><a href="#presentation">Presentation/Histoire</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </section>
+                <section class="legal">
+                    <h3>Légal :</h3>
+                    <ul>
+                        <li><a href="../pages/cgu.php">CGU</a></li>
+                        <li><a href="../pages/rights.php">Droits</a></li>
+                        <li><a href="../pages/credits.php">Crédits</a></li>
+                        <li><a href="../pages/informations.php">Informations</a></li>
+                    </ul>
+                </section>
+                <section class="social">
+                    <h3>Retrouvez-nous sur :</h3>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-x"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-discord"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </section>
+            </section>
+            <p>Copyright &copy; 2024 All Rights Reserved by <a href="../../index.php">Pix&Pulse Group</a></p>
+        </footer>
+
+        <div id="popup_identification" class="popup_identification">
+            <div class="popup_identification_content">
+                <span class="close">&times;</span>
+                <div id="loginForm">
+                    <h2>Connexion</h2>
+                    <form class="form_identification">
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                        <input type="password" placeholder="Mot de passe" required>
+                        <button type="submit">Se connecter</button>
+                    </form>
+                    <p>Pas encore de compte ? <a href="../../index.php" id="signupLink">S'inscrire</a></p>
+                </div>
+                <div id="signupForm">
+                    <h2>Inscription</h2>
+                    <form class="form_identification">
+                        <input type="text" placeholder="Nom d'utilisateur" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Numéro de téléphone" required>
+                        <input type="password" placeholder="Mot de passe" required>
+                        <button type="submit">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="../js/header.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/dropdown.js"></script>
+    <script src="../js/popup_identification.js"></script>
+</html>
